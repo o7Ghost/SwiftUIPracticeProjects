@@ -15,11 +15,17 @@ struct LoginView: View {
             VStack {
                 HeaderView(title: "To Do List", subtitle: "Get things Done", angle: 15, background: .pink)
 
+                if !viewModel.errorMessage.isEmpty {
+                    Text(viewModel.errorMessage).foregroundColor(.red)
+                }
+
                 Form {
                     TextField("Email Address", text: $viewModel.email).textFieldStyle(RoundedBorderTextFieldStyle())
                     SecureField("Password", text: $viewModel.password).textFieldStyle(RoundedBorderTextFieldStyle())
 
-                    TLButton(title: "Login", background: .blue) {}
+                    TLButton(title: "Login", background: .blue) {
+                        viewModel.login()
+                    }
                 }
 
                 VStack {
