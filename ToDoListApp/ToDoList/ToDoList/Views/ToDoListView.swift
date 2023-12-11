@@ -19,9 +19,14 @@ struct ToDoListView: View {
     var body: some View {
         NavigationView {
             VStack {}.navigationTitle("To Do List").toolbar {
-                Button {} label: {
+                Button {
+                    viewModel.showingViewItemView = true
+                } label: {
                     Image(systemName: "plus")
                 }
+            }
+            .sheet(isPresented: $viewModel.showingViewItemView) {
+                NewItemView(newItemPresented: $viewModel.showingViewItemView)
             }
         }
     }
