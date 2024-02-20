@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7C0AFB7B2B1D3DA200BE17B5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0AFB7A2B1D3DA200BE17B5 /* Extensions.swift */; };
 		7C0AFB7D2B1D4A9000BE17B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C0AFB7C2B1D4A9000BE17B5 /* GoogleService-Info.plist */; };
+		7C0AFB7F2B84633A00BE17B5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C0AFB7E2B84633A00BE17B5 /* Launch Screen.storyboard */; };
 		7C18A1052B01B1A800BC8E48 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C18A1042B01B1A800BC8E48 /* HeaderView.swift */; };
 		7C95E6D42B017AEA0092299C /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C95E6D32B017AEA0092299C /* ToDoListApp.swift */; };
 		7C95E6D62B017AEA0092299C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C95E6D52B017AEA0092299C /* MainView.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		7C0AFB7A2B1D3DA200BE17B5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		7C0AFB7C2B1D4A9000BE17B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7C0AFB7E2B84633A00BE17B5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		7C18A1042B01B1A800BC8E48 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		7C95E6D02B017AEA0092299C /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C95E6D32B017AEA0092299C /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				7C95E6D32B017AEA0092299C /* ToDoListApp.swift */,
 				7C0AFB7C2B1D4A9000BE17B5 /* GoogleService-Info.plist */,
 				7C0AFB7A2B1D3DA200BE17B5 /* Extensions.swift */,
+				7C0AFB7E2B84633A00BE17B5 /* Launch Screen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			files = (
 				7C95E6DB2B017AEC0092299C /* Preview Assets.xcassets in Resources */,
 				7C95E6D82B017AEC0092299C /* Assets.xcassets in Resources */,
+				7C0AFB7F2B84633A00BE17B5 /* Launch Screen.storyboard in Resources */,
 				7C0AFB7D2B1D4A9000BE17B5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +400,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -425,6 +430,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
